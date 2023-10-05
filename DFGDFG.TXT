@@ -1,0 +1,6 @@
+"Assets/motors_and_channels/1.jfif",
+"Assets/motors_and_channels/2.jfif",
+"Assets/motors_and_channels/3.jfif",
+"Assets/motors_and_channels/4.jfif",
+"Assets/motors_and_channels/5.jfif",
+"Assets/motors_and_channels/6.jfif"

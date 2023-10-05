@@ -1,0 +1,119 @@
+
+/* Banner */
+.productbanber{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom right,#e59e03,#e5c300,#59c9df,#66e6f1);
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.productHeading h1{
+    color: white;
+    
+}
+/* Banner end */
+
+
+/* Gallery */
+
+
+.gallery{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.headingGallery{
+    justify-content: center;
+}
+.headingGallery h2{ 
+   
+    padding-inline: 20px;
+    padding-bottom: 5px;
+    
+}
+
+
+.suHeadingGallery {
+    margin-block: 20px;
+   justify-content: center;
+   color:#e59e03;
+   font-size: 1.2rem;
+ 
+}
+.suHeadingGallery h3 {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #59c9df;
+}
+
+
+.imageContainer{
+    margin-block: 35px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px */
+    
+}
+.cardImg{
+    
+    margin-inline: 8px;
+    box-shadow: 10px 8px 10px rgba(134, 134, 134, 0.212) ;
+    min-width: 200px;
+    max-width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.cardImg:hover{
+    box-shadow: -5px -4px 10px  rgba(134, 134, 134, 0.212) ;
+    transform: scale(1.1);
+}
+.cardImg img{   
+    /* width: 100%; */
+    height: 100%;
+    cursor: pointer;
+}
+
+#ArtificialGrassAndVerticalGarden{
+    border: none;
+}
+
+.product-container1{
+    padding-block: 20px;
+}
+
+
+
+.productsForMoile{
+    display: none;
+}
+
+
+/* For mobile */
+
+@media screen and (max-width: 425px) {
+    .productsForMoile{
+        display: block;
+    }
+    .productsForDesktop{
+        display: none;
+    }
+    .productSliderContainer{
+        padding-top: 80px;
+    }
+    
+
+}

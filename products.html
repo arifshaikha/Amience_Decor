@@ -1,0 +1,2328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Services | Ambience Decor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="icon" type="image/x-icon" href="favicon_.png">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar flex container">
+            <div class="logoContainer">
+                <a href="index.html"><img src="Assets/Logo.png" alt=""></a>
+            </div>
+            <div class="menuContainer flex">
+                <div class="webMenus">
+                    <ul class="menus flex">
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="aboutus.html">
+                            <li>About Us</li>
+                        </a>
+                        <a href="contactus.html">
+                            <li>Contact Us</li>
+                        </a>
+                        <li class="productLabel active" id="productLabel">
+                            Products & Services &nbsp;<i id="ArrowIcon"
+                                class="ArrowIcon fa-solid fa-caret-down"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <ul class="dropDown" id="dropDown">
+                                <a href="products.html#Wallpapers">
+                                    <li>Wallpapers</li>
+                                </a>
+                                <a href="products.html#Floorings">
+                                    <li>Floorings</li>
+                                </a>
+                                <a href="products.html#Fabrics">
+                                    <li>Fabrics</li>
+                                </a>
+                                <a href="products.html#windowBlinds">
+                                    <li>Window Blinds</li>
+                                </a>
+                                <a href="products.html#GlassFilmAndCustomization">
+                                    <li>Glass Films</li>
+                                </a>
+                                <a href="products.html#PVC_Panel">
+                                    <li>PVC Panels</li>
+                                </a>
+                                <a href="products.html#ArtificialGrassAndVerticalGarden">
+                                    <li>Aritficial Grass</li>
+                                </a>
+                                <a href="products.html#ArtificialGrassAndVerticalGarden">
+                                    <li>Vertical Garden</li>
+                                </a>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="mobileMenus">
+                    <i class="fa-solid fa-bars fontAwesome " id="humburger"></i>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="sideNav">
+
+        <ul class="menusSideNav flex">
+            <i class="fa-solid fa-xmark fontAwesome" id="closeArrow"></i>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="aboutus.html">
+                <li>About Us</li>
+            </a>
+            <a href="contactus.html">
+                <li>Contact Us</li>
+            </a>
+            <li><a class="active" href="products.html">Products & Services</a>
+                <ul class="dropDownSideNav flex" id="dropDownSideNavId">
+                    <a href="products.html#wallpaperM">
+                        <li>Wallpapers</li>
+                    </a>
+                    <a href="products.html#FlooringsM">
+                        <li>Floorings</li>
+                    </a>
+                    <a href="products.html#FabricsM">
+                        <li>Fabrics</li>
+                    </a>
+                    <a href="products.html#windowBlindsM">
+                        <li>Window Blinds</li>
+                    </a>
+                    <a href="products.html#GlassFilmAndCustomizationM">
+                        <li>Glass Films</li>
+                    </a>
+                    <a href="products.html#PVC_PanelM">
+                        <li>PVC Panels</li>
+                    </a>
+                    <a href="products.html#ArtificialGrassAndVerticalGardenM">
+                        <li>Artificial Grass</li>
+                    </a>
+                    <a href="products.html#ArtificialGrassAndVerticalGardenM">
+                        <li>Vertical Garden</li>
+                    </a>
+                </ul>
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Banner -->
+    <div class="productbanber flex">
+        <div class="productHeading ">
+            <h1>Products & Services</h1>
+        </div>
+    </div>
+
+    <!-- Banner End -->
+
+
+    <!-- template for desktop -->
+    <template id="card">
+        <div class="cardImg flex">
+            <img src="Assets/1.jpg" onclick="show(this.src)" alt="pic" id="cardImgSrc" id="cardImgSrc"
+                class="cardImgSrc">
+        </div>
+    </template>
+    <!-- template for desktop END-->
+    <div class="productsForDesktop">
+        <!-- Gallery -->
+        <!-- For Wallpaper -->
+        <div class="gallery container" id="Wallpapers">
+
+            <div class="headingGallery flex">
+                <h2>Wallpapers</h2>
+            </div>
+            <!-- 1.Indian & Imported -->
+            <div class="suHeadingGallery flex">
+                <h3>Indian And Imported Wallpapers</h3>
+            </div>
+            <div id="imageContainer_wallpaper_IndianAndImported" class="imageContainer flex">
+
+            </div>
+            <!--1.Indian & Imported END!!!!!-->
+            <!-- 2.Customized -->
+            <div class="suHeadingGallery flex">
+                <h3>Customized Wallpapers</h3>
+            </div>
+            <div id="imageContainer_wallpaper_customized" class="imageContainer flex">
+
+            </div>
+
+            <!-- 2.Customized END !!!!!!!-->
+
+
+        </div>
+        <!-- Gallery End -->
+
+        <!-- Gallery -->
+        <!-- For Flooring -->
+        <div class="gallery container" id="Floorings">
+
+            <div class="headingGallery flex">
+                <h2>Floorings</h2>
+            </div>
+            <!-- 1.Carpet Tiles -->
+            <div class="suHeadingGallery flex">
+                <h3>Carpet Tiles</h3>
+            </div>
+            <div id="imageContainer_flooring_carpetTile" class="imageContainer flex">
+
+            </div>
+            <!--1.Carpet Tiles END!!!!!-->
+            <!-- 2.PVC Floorings -->
+            <div class="suHeadingGallery flex">
+                <h3>PVC And SPC Flooring</h3>
+            </div>
+            <div id="imageContainer_flooring_pvc_spc_Flooring" class="imageContainer flex">
+
+            </div>
+
+            <!-- 2.PVC Floorings END !!!!!!!-->
+
+            <!-- 4.Vinyl Floorings -->
+            <div class="suHeadingGallery flex">
+                <h3>Vinyl Flooring</h3>
+            </div>
+            <div id="imageContainer_flooring_vinylFlooring" class="imageContainer flex">
+
+            </div>
+
+            <!-- 4.Vinyl Floorings END !!!!!!!-->
+            <!-- 5.Wooden Floorings -->
+            <div class="suHeadingGallery flex">
+                <h3>Wooden Flooring</h3>
+            </div>
+            <div id="imageContainer_flooring_woodenFlooring" class="imageContainer flex">
+
+            </div>
+
+            <!-- 5.Wooden Floorings END !!!!!!!-->
+            <!-- 6.Gym & Hospital Floorings -->
+            <div class="suHeadingGallery flex">
+                <h3>Gym And Hospital Flooring</h3>
+            </div>
+            <div id="imageContainer_flooring_gymAndhospitalFlooring" class="imageContainer flex">
+
+            </div>
+
+            <!-- 6.Gym & Hospital Floorings END !!!!!!!-->
+            <!-- 7.Wall to Wall Floorings -->
+            <div class="suHeadingGallery flex">
+                <h3>Wall To Wall </h3>
+            </div>
+            <div id="imageContainer_flooring_wallTowallFlooring" class="imageContainer flex">
+
+            </div>
+
+            <!-- 7.Wall to Wall Floorings END !!!!!!!-->
+
+
+        </div>
+        <!-- Gallery End -->
+
+        <!-- Gallery -->
+        <!-- For Fabricssssss -->
+        <div class="gallery container" id="Fabrics">
+
+            <div class="headingGallery flex">
+                <h2>Fabrics</h2>
+            </div>
+            <!-- 1.curtains and sheer -->
+            <div class="suHeadingGallery flex">
+                <h3>Curtains And Sheer</h3>
+            </div>
+            <div id="imageContainer_fabric_curtainsAndSheer" class="imageContainer flex">
+
+            </div>
+            <!-- 1.curtains and sheer END!!!!!-->
+            <!-- 2.Upholestry Farics -->
+            <div class="suHeadingGallery flex">
+                <h3>Upholestry Farics</h3>
+            </div>
+            <div id="imageContainer_fabric_Upholestry_Farics" class="imageContainer flex">
+
+            </div>
+
+            <!-- 2.Upholestry Farics END !!!!!!!-->
+            <!-- 3.Customized Farics -->
+            <div class="suHeadingGallery flex">
+                <h3>Customized Farics</h3>
+            </div>
+            <div id="imageContainer_fabric_Customized_Farics" class="imageContainer flex">
+
+            </div>
+
+            <!-- 3.Customized Farics END !!!!!!!-->
+
+            <!-- 4.Motors and Channels -->
+            <div class="suHeadingGallery flex">
+                <h3>Motors and Channels</h3>
+            </div>
+            <div id="imageContainer_fabric_motorsAndChannels" class="imageContainer flex">
+
+            </div>
+            <!-- 4.Motors and Channels !!!!!-->
+            
+
+        </div>
+        <!-- Gallery End -->
+
+        <!-- Gallery -->
+        <!-- For Window blinds -->
+        <div class="gallery container" id="windowBlinds">
+
+            <div class="headingGallery flex">
+                <h2>Window Blinds</h2>
+            </div>
+            <!-- 1.Wooden Venetian -->
+            <div class="suHeadingGallery flex">
+                <h3>Wooden Venetian</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_WoodenVenetian" class="imageContainer flex">
+
+            </div>
+            <!--1.Wooden Venetian END!!!!!-->
+            <!-- 2.Roller  -->
+            <div class="suHeadingGallery flex">
+                <h3>Roller Blinds</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_roller" class="imageContainer flex">
+
+            </div>
+
+            <!-- 2.Roller END !!!!!!!-->
+            <!-- 3.Zebra -->
+            <div class="suHeadingGallery flex">
+                <h3>Zebra Blinds</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_Zebra" class="imageContainer flex">
+
+            </div>
+
+            <!-- 3.Zebra END !!!!!!!-->
+            <!-- 4.Honey Comb -->
+            <div class="suHeadingGallery flex">
+                <h3>Honey Comb Blinds</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_HoneyComb" class="imageContainer flex">
+
+            </div>
+
+            <!-- 4.Honey Comb END !!!!!!!-->
+            <!-- 5.Roman and Vertical -->
+            <div class="suHeadingGallery flex">
+                <h3>Roman And Vertical Blinds</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_RomanAndVertical" class="imageContainer flex">
+
+            </div>
+
+            <!-- 5.Roman and Vertical END !!!!!!!-->
+            <!-- 6.Customized blinds -->
+            <div class="suHeadingGallery flex">
+                <h3>Customized Blinds</h3>
+            </div>
+            <div id="imageContainer_WindowBlinds_customizedblinds" class="imageContainer flex">
+
+            </div>
+
+            <!-- 6.Customized blinds END !!!!!!!-->
+
+
+
+        </div>
+        <!-- Gallery End -->
+
+        <!-- Gallery -->
+        <!-- For Glass Film And Customization -->
+        <div class="gallery container" id="GlassFilmAndCustomization">
+
+            <div class="headingGallery flex">
+                <h2>Glass Films And Customization</h2>
+            </div>
+            <div id="imageContainer_glassFilmAndCustomization" class="imageContainer flex">
+
+            </div>
+        </div>
+        <!-- Gallery End -->
+
+        <!-- Gallery -->
+        <!-- For PVC Panel -->
+        <div class="gallery container" id="PVC_Panel">
+
+            <div class="headingGallery flex">
+                <h2>PVC Panels</h2>
+            </div>
+            <div id="imageContainer_pvcPanels" class="imageContainer flex">
+
+            </div>
+        </div>
+        <!-- Gallery End -->
+
+
+        <!-- Gallery -->
+        <!-- For Artificial Grass And Vertical Garden -->
+        <div class="gallery container" id="ArtificialGrassAndVerticalGarden">
+
+            <div class="headingGallery flex">
+                <h2>Artificial Grass And Vertical Garden</h2>
+            </div>
+            <div id="imageContainer_artificialGardenAndVerticalGarden" class="imageContainer flex">
+
+            </div>
+        </div>
+        <!-- Gallery End -->
+    </div>
+
+
+
+
+    <!-- template for Mobile -->
+    <template id="cardMobile">
+
+        <div class="cardImg flex">
+            <img src="Assets/1.jpg" onclick="show(this.src)" alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+        </div>
+    </template>
+    <!-- template for Mobile -->
+
+    <div class="productsForMoile">
+
+
+
+
+        <!-- Wallpaper -->
+        <div class="productSliderContainer " id="wallpaperM">
+            <div class="headingGallery flex container">
+                <h2>Wallpapers</h2>
+            </div>
+
+
+            <!-- Indian and Imported Wallpapers -->
+            <div class="suHeadingGallery flex container">
+                <h3>Indian and Imported Wallpapers</h3>
+            </div>
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(wall1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(wall1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="wall1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/14.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/15.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/16.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/17.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/18.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/19.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/20.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/21.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/22.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/23.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/24.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/25.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/26.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/27.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/28.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/29.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/30.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/31.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/32.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/33.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/34.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/35.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/36.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/37.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/38.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/39.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/Indian And Imported/40.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- Indian and Imported Wallpapers End-->
+
+
+
+            <!-- Customized Wallpaper -->
+            <div class="suHeadingGallery flex container">
+                <h3>Customized Wallpapers</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(wall2)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(wall2)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="wall2">
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/14.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/15.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/16.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/17.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/18.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/19.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/20.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/21.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/22.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/23.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/24.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/25.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/26.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/27.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/28.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/29.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/30.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/31.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/32.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/33.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/34.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/35.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/36.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/37.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/38.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/39.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/1_Wallpaper/CustomizedWallpapper/40.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Customized Wallpaper -->
+        </div>
+        <!-- Wallpaper End-->
+
+
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <!-- Flooring -->
+        <div class="productSliderContainer " id="FlooringsM">
+            <div class="headingGallery flex container">
+                <h2>Floorings</h2>
+            </div>
+
+
+            <!-- Carpet Tiles  -->
+            <div class="suHeadingGallery flex container">
+                <h3>Carpet Tiles</h3>
+            </div>
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(flo1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Carpet_Tiles/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- Carpet Tiles End-->
+
+
+
+            <!-- PVC And SPC Flooring -->
+            <div class="suHeadingGallery flex container">
+                <h3>PVC And SPC Flooring</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(flo2)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo2)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo2">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/1.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/2.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/3.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/4.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/5.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/6.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/7.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/8.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/9.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Flooring/10.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Plank_Flooring/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/PVC_Plank_Flooring/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/SPC_Flooring/1.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/SPC_Flooring/2.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/SPC_Flooring/3.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- PVC And SPC Flooring End -->
+
+
+            <!-- Vinyl Flooring -->
+            <div class="suHeadingGallery flex container">
+                <h3>Vinyl Flooring</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(flo3)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo3)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo3">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/1.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/2.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/3.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/4.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/5.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/6.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/7.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/8.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/9.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/10.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/11.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/12.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/13.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/vinyl_Flooring/14.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Vinyl Flooring End -->
+
+
+            <!-- Wooden Flooring -->
+            <div class="suHeadingGallery flex container">
+                <h3>Wooden Flooring</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(flo4)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo4)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo4">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/1.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/2.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/3.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/4.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/5.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/6.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/7.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/8.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/9.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wooden_Flooring/10.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Wooden Flooring End -->
+
+
+            <!-- Gym And Hospital Flooring -->
+            <div class="suHeadingGallery flex container">
+                <h3>Gym And Hospital Flooring</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(flo5)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo5)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo5">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/1.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/2.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/3.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/4.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/5.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/6.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/7.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Hospital and Gym Flooring/8.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Gym And Hospital Flooring End -->
+
+
+
+            <!-- Wall To Wall -->
+            <div class="suHeadingGallery flex container">
+                <h3>Wall To Wall</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(flo6)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(flo6)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="flo6">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/2_Floorings/Wall to wall Carpet/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Wall To Wall End -->
+
+        </div>
+        <!-- Flooring End-->
+
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Fabrics -->
+        <div class="productSliderContainer " id="FabricsM">
+            <div class="headingGallery flex container">
+                <h2>Fabrics</h2>
+            </div>
+
+
+            <!-- Curtains And Sheer -->
+            <div class="suHeadingGallery flex container">
+                <h3>Curtains And Sheer</h3>
+            </div>
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(fa1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(fa1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="fa1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/10.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/11.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/12.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/13.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Main_curtains&sheer_curtain/14.jfif" onclick="show(this.src)"
+                            alt="pic" id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Curtains And Sheer End-->
+
+
+
+            <!-- Upholestry Farics -->
+            <div class="suHeadingGallery flex container">
+                <h3>Upholestry Farics</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(fa2)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(fa2)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="fa2">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/14.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/15.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/16.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/17.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/18.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/19.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/21.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/22.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/23.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/24.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/25.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/26.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/27.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/28.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/29.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/30.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/31.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/32.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/33.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/34.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/35.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/Upholestry_Products/36.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Upholestry Farics End -->
+
+
+            <!-- Customized Farics -->
+            <div class="suHeadingGallery flex container">
+                <h3>Customized Farics</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(fa3)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(fa3)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="fa3">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/3_Farics/customized_curtain/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Customized Farics -->
+
+
+            <!-- Motors And Channels  -->
+            <div class="suHeadingGallery flex container">
+                <h3>Motors And Channels </h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(fa4)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(fa4)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="fa4">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/motors_and_channels/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Motors And Channels End -->
+
+        </div>
+        <!-- Fabrics End-->
+
+
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Window Blinds -->
+        <div class="productSliderContainer " id="windowBlindsM">
+            <div class="headingGallery flex container">
+                <h2>Window Blinds</h2>
+            </div>
+
+
+            <!-- Wooden Venetian  -->
+            <div class="suHeadingGallery flex container">
+                <h3>Wooden Venetian</h3>
+            </div>
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(w1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/wooden venetian blind/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- Wooden Venetian End-->
+
+
+
+            <!-- Roller Blinds -->
+            <div class="suHeadingGallery flex container">
+                <h3>Roller Blinds</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(w2)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w2)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w2">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roller/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Roller Blinds End -->
+
+
+            <!-- Zebra Blinds -->
+            <div class="suHeadingGallery flex container">
+                <h3>Zebra Blinds</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(w3)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w3)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w3">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/14.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/15.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/zebra blind/16.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Zebra blind End -->
+
+
+            <!-- Honey Comb Blinds -->
+            <div class="suHeadingGallery flex container">
+                <h3>Honey Comb Blinds</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(w4)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w4)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w4">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/honeycomb blind/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/honeycomb blind/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/honeycomb blind/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/honeycomb blind/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Honey Comb Blinds End -->
+
+
+            <!-- Roman And Vertical Blinds -->
+            <div class="suHeadingGallery flex container">
+                <h3>Roman And Vertical Blinds</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(w5)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w5)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w5">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roman blind/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roman blind/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roman blind/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Roman blind/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Vertical blinds/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Roman And Vertical Blinds End -->
+
+
+
+            <!-- Customized Blinds -->
+            <div class="suHeadingGallery flex container">
+                <h3>Customized Blinds</h3>
+            </div>
+
+            <div class="product-carousel">
+
+                <button class="pre-btn" onClick="btnpressprev(w6)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(w6)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="w6">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/4_Windowblinds/Customized Roller/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Customized Blinds End -->
+
+        </div>
+        <!-- Window blinds End-->
+
+
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Glass Films And Customization -->
+        <div class="productSliderContainer " id="GlassFilmAndCustomizationM">
+            <div class="headingGallery flex container">
+                <h2>Glass Films And Customization</h2>
+            </div>
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(g1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(g1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="g1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/9.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/10.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/11.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/12.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/13.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/14.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/15.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/16.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/17.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/18.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/5_GlassFilm/Glass_Flim/19.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Glass Films And Customization End-->
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- PVC Panels -->
+        <div class="productSliderContainer " id="PVC_PanelM">
+            <div class="headingGallery flex container">
+                <h2>PVC Panels</h2>
+            </div>
+
+
+
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(pvc1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(pvc1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="pvc1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/5.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/6.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/7.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/7_PVCPanel/PVC_Panel/8.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- PVC Panels End-->
+
+
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Artificial Grass And Vertical Garden -->
+        <div class="productSliderContainer " id="ArtificialGrassAndVerticalGardenM">
+            <div class="headingGallery flex container">
+                <h2>Artificial Grass And Vertical Garden</h2>
+            </div>
+
+
+
+            <div class="product-carousel ">
+                <button class="pre-btn" onClick="btnpressprev(grass1)">
+                    <p>&lt;</p>
+                </button>
+                <button class="next-btn" onClick="btnpressnext(grass1)">
+                    <p>&gt;</p>
+                </button>
+
+
+                <div class="product-container product-container1" id="grass1">
+
+                    <div class="cardImg flex">
+                        <img src="Assets/6_ArtificialGrass/GreenGrass/1.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/6_ArtificialGrass/GreenGrass/2.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/6_ArtificialGrass/GreenGrass/3.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/6_ArtificialGrass/GreenGrass/4.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/6_ArtificialGrass/GreenGrass/5.jpeg" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/8_VerticalGarden/Vertical_Garden/1.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/8_VerticalGarden/Vertical_Garden/2.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/8_VerticalGarden/Vertical_Garden/3.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+                    <div class="cardImg flex">
+                        <img src="Assets/8_VerticalGarden/Vertical_Garden/4.jfif" onclick="show(this.src)" alt="pic"
+                            id="cardImgSrcMoile" class="cardImgSrc">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <!--Artificial Grass And Vertical Garden End-->
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+        <!-- image viewer -->
+        <div class="imageView " id="imageView">
+            <img src="Assets/1.jpg" alt="Photo" id="imageDis">
+            <p onclick="closeViewer()"><i class="fa-solid fa-xmark"></i></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footerContainer">
+        <div class="container mainFooter flex">
+            <div class="leftFooter flex">
+                <a href="index.html">
+                    <img src="Assets/Logo.png" alt="">
+                </a>
+
+            </div>
+            <div class="rightFooter flex">
+
+                <div class="rightFooter2 flex">
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="products.html">Products & Services</a>
+                </div>
+                <div class="rightFooter1 flex">
+                    <p>Address :</p>
+                    <a href="https://www.google.com/maps/place/Ambience+Decor/@19.1256495,72.8400321,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c983add95cbf:0x2901c3925a66478f!8m2!3d19.1256444!4d72.842607!16s%2Fg%2F11jzb1l9yz?entry=ttu"
+                        target="_blank">
+                        <p> <span>Shop No 1, Divya Ratna Apt, Bhardawadi Rd, near Navnit CHS, near Azad
+                                Metro station,
+                                Oberoi
+                                Block, Dhakoji Sethpada, Navneeth Colony, Andheri West, Mumbai, Maharashtra
+                                400053.
+                            </span></p>
+                    </a>
+
+                    <div class="social flex">
+
+                        <a href="tel: +91 900 417 01 15">
+                            <span id="mobile"><i class="fa-solid fa-phone fa-lg"></i> </span>
+                        </a>
+                        <a href="https://wa.me/919004170115" target="_blank">
+                            <span id="Whatsapp"><i class="fa-brands fa-whatsapp fa-lg"></i> </span>
+                        </a>
+                        <a href="https://www.facebook.com/people/Ambience-Decor/pfbid02JnwDnoPmcoq41Cy9CUR22Y7c7K2BGSjjXedbiVbgDo55eZDaozDRY25RBMKe3aNRl/"
+                            target="_blank">
+                            <span id="fb"><i class="fa-brands fa-facebook-f fa-lg"></i></span>
+                        </a>
+                        <a href="https://www.instagram.com/ambience_decor_/" target="_blank">
+                            <span id="insta"><i class="fa-brands fa-instagram fa-lg"></i> </span>
+                        </a>
+                        <a href="mailto:ambiencedecorsales@gmail.com" target="_blank">
+                            <span id="Gmail"><i class="fa-regular fa-envelope fa-lg"></i> </span>
+                        </a>
+                        <a href="https://www.youtube.com/@ambiencedecor" target="_blank">
+                            <span id="youtube"><i class="fa-brands fa-youtube fa-lg"></i></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- End footer -->
+
+    <!-- subFooter -->
+    <footer class="subFooterContainer flex">
+        <p>All rights reserved. Powered by the <a href="https://acrosysinfotech.in/" target="_blank">Acrosys
+                Infotech</a></p>
+    </footer>
+    <!-- End subFooter -->
+    <!-- <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-regular fa-envelope"></i>
+    <i class="fa-solid fa-phone"></i> -->
+
+    <script src="https://kit.fontawesome.com/ab6ce438bd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+    <script src="productMoile.js"></script>
+
+</body>
+
+</html>
