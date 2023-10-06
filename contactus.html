@@ -132,19 +132,20 @@
     <!-- form -->
 
     <div class="formContianer">
-        <form class="inputContainer flex">
+        <form class="inputContainer flex" action="" onsubmit="sendEmail(); reset(); return false;">
             <div class="flex haha">
-                <p class="starMark"></p><input type="text" placeholder="Name" id="name" required>
+                <p class="starMark"></p><input type="text"  id="name" placeholder="Name" id="name" required>
             </div>
             <div class="flex haha">
-                <p class="starMark"></p><input type="email" placeholder="Email" required>
+                <p class="starMark"></p><input type="email"  id="email" placeholder="Email" required>
             </div>
             <div class="flex haha">
-                <p class="starMark"></p><input type="text" placeholder="Phone" required>
+                <p class="starMark"></p><input type="text" id="mobileNo"  placeholder="Phone" required>
             </div>
             <div class="flex haha">
-                <textarea placeholder="Your Message here ..."></textarea>
+                <textarea placeholder="Your Message here ..." id="message" ></textarea>
             </div>
+            <!-- <button id="buttonSubmit"  onclick="sendEmail()">Send Message</button> -->
             
                 <input id="buttonSubmit" type="submit" value="Send Message">
             
@@ -228,6 +229,8 @@
     </div> -->
 
     <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://kit.fontawesome.com/ab6ce438bd.js" crossorigin="anonymous"></script>
 
 </body>
