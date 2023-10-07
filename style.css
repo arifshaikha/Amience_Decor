@@ -743,7 +743,7 @@ select{
 
 /* For mobile */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 604px) {
     body {
         /* background-color: rgb(208, 255, 0); */
     }
