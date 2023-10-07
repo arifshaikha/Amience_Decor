@@ -155,14 +155,14 @@ let flooring_wooden = [
     "Assets/2_Floorings/Wooden_Flooring/10.jpeg"
 ];
 let flooring_wallTowall = [
-    "Assets/2_Floorings/Wall to wall Carpet/1.jfif",
+    // "Assets/2_Floorings/Wall to wall Carpet/1.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/2.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/3.jfif",
-    "Assets/2_Floorings/Wall to wall Carpet/4.jfif",
-    "Assets/2_Floorings/Wall to wall Carpet/5.jfif",
-    "Assets/2_Floorings/Wall to wall Carpet/6.jfif",
+    // "Assets/2_Floorings/Wall to wall Carpet/4.jfif",
+    // "Assets/2_Floorings/Wall to wall Carpet/5.jfif",
+    // "Assets/2_Floorings/Wall to wall Carpet/6.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/7.jfif",
-    "Assets/2_Floorings/Wall to wall Carpet/8.jfif",
+    // "Assets/2_Floorings/Wall to wall Carpet/8.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/9.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/10.jfif",
     "Assets/2_Floorings/Wall to wall Carpet/11.jfif",
@@ -245,20 +245,20 @@ let Farics_MotorsAndChannels = [
 ];
 let Windowblinds_woodenVenetian = [
     "Assets/4_Windowblinds/wooden venetian blind/1.jfif",
-    "Assets/4_Windowblinds/wooden venetian blind/2.jfif",
+    // "Assets/4_Windowblinds/wooden venetian blind/2.jfif",
     "Assets/4_Windowblinds/wooden venetian blind/3.jfif",
     "Assets/4_Windowblinds/wooden venetian blind/4.jfif",
     "Assets/4_Windowblinds/wooden venetian blind/5.jfif",
     "Assets/4_Windowblinds/wooden venetian blind/6.jfif",
-    "Assets/4_Windowblinds/wooden venetian blind/7.jfif"
+    // "Assets/4_Windowblinds/wooden venetian blind/7.jfif"
 ];
 let Windowblinds_Roller = [
     "Assets/4_Windowblinds/Roller/1.jfif",
     "Assets/4_Windowblinds/Roller/2.jfif",
     "Assets/4_Windowblinds/Roller/3.jfif",
     "Assets/4_Windowblinds/Roller/4.jfif",
-    "Assets/4_Windowblinds/Roller/5.jfif",
-    "Assets/4_Windowblinds/Roller/6.jfif",
+    // "Assets/4_Windowblinds/Roller/5.jfif",
+    // "Assets/4_Windowblinds/Roller/6.jfif",
     "Assets/4_Windowblinds/Roller/7.jfif",
     "Assets/4_Windowblinds/Roller/8.jfif",
     "Assets/4_Windowblinds/Roller/9.jfif"
@@ -271,14 +271,14 @@ let Windowblinds_Zebra = [
     "Assets/4_Windowblinds/zebra blind/5.jfif",
     "Assets/4_Windowblinds/zebra blind/7.jfif",
     "Assets/4_Windowblinds/zebra blind/8.jfif",
-    "Assets/4_Windowblinds/zebra blind/9.jfif",
+    // "Assets/4_Windowblinds/zebra blind/9.jfif",
     "Assets/4_Windowblinds/zebra blind/10.jfif",
-    "Assets/4_Windowblinds/zebra blind/11.jfif",
-    "Assets/4_Windowblinds/zebra blind/12.jfif",
+    // "Assets/4_Windowblinds/zebra blind/11.jfif",
+    // "Assets/4_Windowblinds/zebra blind/12.jfif",
     "Assets/4_Windowblinds/zebra blind/13.jfif",
     "Assets/4_Windowblinds/zebra blind/14.jfif",
     "Assets/4_Windowblinds/zebra blind/15.jfif",
-    "Assets/4_Windowblinds/zebra blind/16.jfif",
+    // "Assets/4_Windowblinds/zebra blind/16.jfif",
 ];
 let Windowblinds_HoneyComb = [
     "Assets/4_Windowblinds/honeycomb blind/1.jfif",
@@ -287,24 +287,24 @@ let Windowblinds_HoneyComb = [
     "Assets/4_Windowblinds/honeycomb blind/4.jfif"
 ];
 let Windowblinds_Customized = [
-    "Assets/4_Windowblinds/Customized Roller/1.jfif",
+    // "Assets/4_Windowblinds/Customized Roller/1.jfif",
     "Assets/4_Windowblinds/Customized Roller/2.jfif",
     "Assets/4_Windowblinds/Customized Roller/3.jfif",
     "Assets/4_Windowblinds/Customized Roller/4.jfif",
-    "Assets/4_Windowblinds/Customized Roller/5.jfif",
-    "Assets/4_Windowblinds/Customized Roller/6.jfif",
-    "Assets/4_Windowblinds/Customized Roller/7.jfif",
+    // "Assets/4_Windowblinds/Customized Roller/5.jfif",
+    // "Assets/4_Windowblinds/Customized Roller/6.jfif",
+    // "Assets/4_Windowblinds/Customized Roller/7.jfif",
     "Assets/4_Windowblinds/Customized Roller/8.jfif",
     "Assets/4_Windowblinds/Customized Roller/9.jfif"
 ];
 let Windowblinds_Roman_and_Vertical = [
-    "Assets/4_Windowblinds/Roman blind/1.jfif",
+    // "Assets/4_Windowblinds/Roman blind/1.jfif",
     "Assets/4_Windowblinds/Vertical blinds/1.jfif",
-    "Assets/4_Windowblinds/Roman blind/2.jfif",
-    "Assets/4_Windowblinds/Vertical blinds/2.jfif",
+    // "Assets/4_Windowblinds/Roman blind/2.jfif",
+    // "Assets/4_Windowblinds/Vertical blinds/2.jfif",
     "Assets/4_Windowblinds/Roman blind/3.jfif",
-    "Assets/4_Windowblinds/Vertical blinds/3.jfif",
-    "Assets/4_Windowblinds/Roman blind/4.jfif",
+    // "Assets/4_Windowblinds/Vertical blinds/3.jfif",
+    // "Assets/4_Windowblinds/Roman blind/4.jfif",
     "Assets/4_Windowblinds/Vertical blinds/4.jfif",
     "Assets/4_Windowblinds/Vertical blinds/5.jfif",
     "Assets/4_Windowblinds/Vertical blinds/6.jfif"
@@ -317,27 +317,27 @@ let GlassFilms_Customization = [
     "Assets/5_GlassFilm/Glass_Flim/4.jfif",
     "Assets/5_GlassFilm/Glass_Flim/5.jfif",
     "Assets/5_GlassFilm/Glass_Flim/6.jfif",
-    "Assets/5_GlassFilm/Glass_Flim/7.jfif",
+    // "Assets/5_GlassFilm/Glass_Flim/7.jfif",
     "Assets/5_GlassFilm/Glass_Flim/8.jfif",
-    "Assets/5_GlassFilm/Glass_Flim/9.jfif",
+    // "Assets/5_GlassFilm/Glass_Flim/9.jfif",
     "Assets/5_GlassFilm/Glass_Flim/10.jfif",
     "Assets/5_GlassFilm/Glass_Flim/11.jfif",
     "Assets/5_GlassFilm/Glass_Flim/12.jfif",
     "Assets/5_GlassFilm/Glass_Flim/13.jfif",
     "Assets/5_GlassFilm/Glass_Flim/14.jfif",
     "Assets/5_GlassFilm/Glass_Flim/15.jfif",
-    "Assets/5_GlassFilm/Glass_Flim/16.jfif",
+    // "Assets/5_GlassFilm/Glass_Flim/16.jfif",
     "Assets/5_GlassFilm/Glass_Flim/17.jfif",
     "Assets/5_GlassFilm/Glass_Flim/18.jfif",
-    "Assets/5_GlassFilm/Glass_Flim/19.jfif"
+    // "Assets/5_GlassFilm/Glass_Flim/19.jfif"
 ];
 
 let ArtificialGrass_VerticalGarden = [
     "Assets/6_ArtificialGrass/GreenGrass/1.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/2.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/2.jpeg",
     "Assets/6_ArtificialGrass/GreenGrass/3.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/4.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/5.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/4.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/5.jpeg",
     "Assets/8_VerticalGarden/Vertical_Garden/1.jfif",
     "Assets/8_VerticalGarden/Vertical_Garden/2.jfif",
     "Assets/8_VerticalGarden/Vertical_Garden/3.jfif",
@@ -347,10 +347,10 @@ let ArtificialGrass_VerticalGarden = [
 let PVC_Panel = [
     "Assets/7_PVCPanel/PVC_Panel/1.jfif",
     "Assets/7_PVCPanel/PVC_Panel/2.jfif",
-    "Assets/7_PVCPanel/PVC_Panel/3.jfif",
+    // "Assets/7_PVCPanel/PVC_Panel/3.jfif",
     "Assets/7_PVCPanel/PVC_Panel/4.jfif",
     "Assets/7_PVCPanel/PVC_Panel/5.jfif",
-    "Assets/7_PVCPanel/PVC_Panel/6.jfif",
+    // "Assets/7_PVCPanel/PVC_Panel/6.jfif",
     "Assets/7_PVCPanel/PVC_Panel/7.jfif",
     "Assets/7_PVCPanel/PVC_Panel/8.jfif"
 ]

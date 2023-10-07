@@ -326,10 +326,10 @@ let MoGlassFilms_Customization = [
 
 let MoArtificialGrass_VerticalGarden = [
     "Assets/6_ArtificialGrass/GreenGrass/1.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/2.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/2.jpeg",
     "Assets/6_ArtificialGrass/GreenGrass/3.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/4.jpeg",
-    "Assets/6_ArtificialGrass/GreenGrass/5.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/4.jpeg",
+    // "Assets/6_ArtificialGrass/GreenGrass/5.jpeg",
     "Assets/8_VerticalGarden/Vertical_Garden/1.jfif",
     "Assets/8_VerticalGarden/Vertical_Garden/2.jfif",
     "Assets/8_VerticalGarden/Vertical_Garden/3.jfif",
