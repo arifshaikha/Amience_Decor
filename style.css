@@ -401,7 +401,7 @@ select{
     margin-top: 20px;
     position: relative;
     overflow: hidden;
-  
+
 
 }
 
@@ -411,6 +411,7 @@ select{
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
+
 }
 
 .pre-btn,
@@ -478,7 +479,7 @@ select{
     width: 100%;
     text-align: center;
     padding-top: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     color: #ffffff;
     transition: all 0.2s ease-in-out;
@@ -495,6 +496,111 @@ select{
 
 /* products Slider */
 
+
+
+
+/* Google Testimony  */
+.testCard {
+    scroll-snap-align: center;
+    height: 280px;
+    min-width: 380px;
+    max-width: 380px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 5px 3px rgba(172, 172, 172, 0.4);
+    transition: all 0.2s ease-in-out;
+    margin-inline: 10px;
+
+}
+
+.testCard:hover {
+    transform: translateY(-5px);
+}
+
+.upperSection {
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    justify-content: space-between;
+}
+
+.upperLeft {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    padding-left: 15px;
+    /* background-color: rgb(235, 240, 216); */
+
+}
+
+.profile {
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upperLeft img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.692);
+    width: 30px;
+}
+
+.userName {
+    display: inline;
+    color: rgb(24, 24, 24);
+    font-size: 1rem;
+}
+
+.ratingStar {
+    color: #FDCC0D;
+}
+.noColor{
+    color: gray;
+}
+.upperRight {
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(73, 75, 67); */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.upperRight img {
+    width: 100%;
+}
+
+.lowerSection {
+    overflow: hidden;
+    line-height: 19px;
+    padding-inline: 15px;
+    justify-content: center;
+    /* align-items: center; */
+    height: 59%;
+    width: 100%;
+    font-style: italic;
+    font-size: 0.8rem;
+    /* background-color: rgb(75, 10, 10); */
+}
+
+.lowerSection p::before {
+    content: '" ';
+}
+
+.lowerSection p::after {
+    content: ' "';
+}
+
+
+
+
+/* Google Testimony End */
 
 
 
@@ -730,9 +836,16 @@ select{
     .rightFooter2 {
         width: 40%;
     }
+
     .banner {
-        
+
         height: 400px;
+    }
+
+    .product-container {
+        overflow: auto;
+        padding-inline: 25px;
+        scroll-snap-type: x mandatory;
     }
 
 }
@@ -765,7 +878,8 @@ select{
     h2 {
         font-size: 1.5rem;
     }
-    h3{
+
+    h3 {
         font-size: 1.2rem;
     }
 
@@ -775,16 +889,20 @@ select{
 
     .next-btn p,
     .pre-btn p {
-        font-size: 35px;     
-    
+        font-size: 35px;
+
     }
+
     .next-btn,
     .pre-btn {
-        width: 35px;     
-    
+        width: 35px;
+
     }
+
     .product-container {
+        overflow: auto;
         padding-inline: 25px;
+        scroll-snap-type: x mandatory;
     }
 
     .mainFooter {
@@ -855,14 +973,16 @@ select{
     .sideNav {
         width: 50%;
     }
+
     .banner {
 
         height: 300px;
     }
+
     .banner img {
 
         height: 100% !important;
     }
 
-    
+
 }
