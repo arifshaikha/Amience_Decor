@@ -29,7 +29,7 @@ html {
 body {
     line-height: 1.8;
     width: 100;
-    background-color: #ffeaeab7;
+    background-color: #fcf6f6b7;
 
 }
 
@@ -428,11 +428,11 @@ select{
 }
 
 .pre-btn {
-    background: linear-gradient(to right, #ffeaeab7, #ffffff00);
+    background: linear-gradient(to right, #fcf6f6b7, #ffffff00);
 }
 
 .next-btn {
-    background: linear-gradient(to left, #ffeaeab7, #ffffff00);
+    background: linear-gradient(to left, #fcf6f6b7, #ffffff00);
     right: 0;
 
 }
