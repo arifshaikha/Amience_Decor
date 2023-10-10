@@ -12,6 +12,7 @@
 }
 
 .contactHeading {
+
     color: white;
 }
 
@@ -19,25 +20,106 @@
 
 
 /* Form */
-.formContianer {
+.mainformContianer {
     padding-block: 50px;
     width: 100%;
-    background-color: red;
+    background: linear-gradient(to top, #fcf6f6b7, #ffeaeab7, #cfcfcf);
+    font-family: 'Roboto Slab', serif;
 
-    background: linear-gradient(to top, #ffeaeab7, #cfcfcf)
+}
+
+.formContainer {
+    /* border: 1px solid yellow; */
+    width: 85%;
+    margin-inline: auto;
+
+}
+
+.upperFormcontainer {
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px;
+
+}
+
+.locationConatiner {
+    width: 24%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.callUsContainer {
+
+    width: 24%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.emailUsContainer {
+
+    width: 24%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.workingHourContainer {
+    width: 24%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.upperFormcontainer h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #111111;
+}
+
+.upperFormcontainer p {
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+.upperFormcontainer a{
+    color: gray;
+    transition: all 0.2s ease-in-out;
+}
+.upperFormcontainer a:hover{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+}
+
+.upperFormcontainer i {
+    color: #028fd7;
+}
+
+.highlight {
+    color: rgb(48, 48, 48);
 }
 
 .inputContainer {
     flex-direction: column;
     gap: 40px;
-    width: 50%;
+    width: 100%;
     height: 100%;
     align-items: center;
     margin-inline: auto;
-    background-color: white;
+    background-color: rgb(240, 239, 239);
+    background-color: #cfcfcf;
+    background: linear-gradient(to bottom, #fcf6f6b7, #ffeaeab7, #cfcfcf);
     padding: 50px 50px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 .inputContainer input {
@@ -46,14 +128,16 @@
     padding-left: 20px;
     border: none;
     border-radius: 5px;
-    background-color: rgba(238, 238, 238, 0.808);
+    background-color: rgba(255, 255, 255, 0.808);
     /* background-color: transparent; */
     box-shadow: 0px 0px 5px rgba(53, 53, 53, 0.192);
 }
-.haha{
+
+.haha {
     width: 100%;
 }
-.haha p{
+
+.haha p {
     padding-right: 20px;
 }
 
@@ -65,7 +149,7 @@
     padding-top: 15px;
     margin-left: 25px;
     border-radius: 5px;
-    background-color: rgba(238, 238, 238, 0.808);
+    background-color: rgba(255, 255, 255, 0.808);
 
     /* background-color: transparent; */
     box-shadow: 0px 0px 5px rgba(53, 53, 53, 0.192);
@@ -84,7 +168,7 @@
 
 }
 
-.starMark::after{
+.starMark::after {
     content: '* ';
     color: red;
 
@@ -95,24 +179,100 @@
 
 /* For Tablet */
 @media screen and (width <=768px) {
+
+    .upperFormcontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
     .inputContainer {
 
-        width: 70%;
+        width: 100%;
+    }
+
+    .locationConatiner {
+        width: 100%;
+    }
+
+    .callUsContainer {
+        width: 100%;
+    }
+
+    .emailUsContainer {
+
+        width: 100%;
+    }
+
+    .workingHourContainer {
+        width: 100%;
 
     }
 }
 
 /* For Tablet End */
 
+@media screen and (max-width: 1000px) {
+    .upperFormcontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 
+    .inputContainer {
+
+        width: 100%;
+    }
+
+    .locationConatiner {
+        width: 100%;
+    }
+
+    .callUsContainer {
+        width: 100%;
+    }
+
+    .emailUsContainer {
+
+        width: 100%;
+    }
+
+    .workingHourContainer {
+        width: 100%;
+
+    }
+
+}
 /* For mobile */
 
 @media screen and (max-width: 480px) {
+   
+
     .inputContainer {
         padding-inline: 10px;
-        width: 95%;
+        width: 100%;
 
     }
+    .locationConatiner {
+        width: 100%;
+    }
+
+    .callUsContainer {
+        width: 100%;
+    }
+
+    .emailUsContainer {
+
+        width: 100%;
+    }
+
+    .workingHourContainer {
+        width: 100%;
+
+    }
+    
 
     .inputContainer #buttonSubmit {
         width: 50%;

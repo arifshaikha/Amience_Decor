@@ -131,27 +131,62 @@
 
     <!-- form -->
 
-    <div class="formContianer">
-        <form class="inputContainer flex" action="" onsubmit="sendEmail(); reset(); return false;">
-            <div class="flex haha">
-                <p class="starMark"></p><input type="text"  id="name" placeholder="Name" id="name" required>
+    <div class="mainformContianer">
+        <div class="formContainer">
+            <div class="upperFormcontainer flex">
+                <div class="locationConatiner flex">
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    <h3>where are we? </h3>
+                    <a href="https://www.google.com/maps/place/Ambience+Decor/@19.1256495,72.8400321,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c983add95cbf:0x2901c3925a66478f!8m2!3d19.1256444!4d72.842607!16s%2Fg%2F11jzb1l9yz?entry=ttu"
+                        target="_blank"><p>Shop No. 1, Divya Ratna Apartment, Bhardawadi Road, Andheri West, Mumbai - 400053. <br>( BESIDE
+                        NAVNEETH CHSL)</p></a>
+                    <p>15Mins walking from Andheri Railway station</p>
+                    <p>10Mins walking from Azad Nagar Metro Station</p>
+                </div>
+                <div class="callUsContainer flex">
+                    <i class="fa-solid fa-tty fa-2xl"></i>
+                    <h3>Call Us</h3>
+                    <p><span class="highlight">Mobile:</span> <a href="tel: +91 900 417 01 15">90041 70115</a></p>
+                    <p><span class="highlight">Mobile:</span> <a href="tel: +91 897 645 56 39">89764 55639</a></p>
+                </div>
+                <div class="emailUsContainer flex">
+                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                    <h3>Email Us</h3>
+                    <p><span class="highlight">Gmail :</span>  <a href="mailto:ambiencedecorsales@gmail.com"  target="_blank">ambiencedecorsales@gmail.com</a></p>
+                </div>
+                <div class="workingHourContainer flex">
+                    <i class="fa-regular fa-clock fa-2xl"></i>
+                    <h3>Working Hours</h3>
+                    <p><span class="highlight">Monday to Saturday :<br></span> 10:30am to 8:30pm</p>
+                    <p><span class="highlight">Sunday :<br></span> Open On Prior Appointments</p>
+                </div>
             </div>
-            <div class="flex haha">
-                <p class="starMark"></p><input type="email"  id="email" placeholder="Email" required>
-            </div>
-            <div class="flex haha">
-                <p class="starMark"></p><input type="text" id="mobileNo"  placeholder="Phone" required>
-            </div>
-            <div class="flex haha">
-                <textarea placeholder="Your Message here ..." id="message" ></textarea>
-            </div>
-            <!-- <button id="buttonSubmit"  onclick="sendEmail()">Send Message</button> -->
-            
+            <form class="inputContainer flex" action="" onsubmit="sendEmail(); reset(); return false;">
+                
+                <h2>SEND AN EMAIL</h2>
+                
+                <div class="flex haha">
+                    <p class="starMark"></p><input type="text" id="name" placeholder="Name" id="name" required>
+                </div>
+                <div class="flex haha">
+                    <p class="starMark"></p><input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="flex haha">
+                    <p class="starMark"></p><input type="text" id="mobileNo" placeholder="Phone" required>
+                </div>
+                <div class="flex haha">
+                    <textarea placeholder="Your Message here ..." id="message"></textarea>
+                </div>
+                <!-- <button id="buttonSubmit"  onclick="sendEmail()">Send Message</button> -->
+
                 <input id="buttonSubmit" type="submit" value="Send Message">
-            
 
 
-        </form>
+
+            </form>
+        </div>
+
+
 
 
     </div>
