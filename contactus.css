@@ -95,10 +95,12 @@
 .upperFormcontainer a{
     color: gray;
     transition: all 0.2s ease-in-out;
+    
 }
 .upperFormcontainer a:hover{
     color: rgb(71, 71, 71);
     font-weight: 700;
+    text-decoration: underline;
 }
 
 .upperFormcontainer i {
@@ -123,6 +125,7 @@
 }
 
 .inputContainer input {
+    
     height: 50px;
     width: 100%;
     padding-left: 20px;
@@ -143,6 +146,7 @@
 
 .inputContainer textarea {
     height: 150px;
+    
     width: 100%;
     border: none;
     padding-left: 20px;
