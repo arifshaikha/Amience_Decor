@@ -67,7 +67,20 @@ p {
 
 body {
     color: gray;
+
 }
+
+.whatsappCorner {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 50;
+}
+.whatsappCorner img{
+    width: 50px;
+}
+
 
 /* image viewer */
 
@@ -560,9 +573,11 @@ select{
 .ratingStar {
     color: #FDCC0D;
 }
-.noColor{
+
+.noColor {
     color: gray;
 }
+
 .upperRight {
     height: 100%;
     width: 40%;
@@ -810,6 +825,9 @@ select{
         /* background-color: rebeccapurple; */
     }
 
+    .whatsappCorner{
+        display: none;
+    }
     .container {
         width: 90vw;
 
@@ -863,7 +881,9 @@ select{
     body {
         /* background-color: rgb(208, 255, 0); */
     }
-
+    .whatsappCorner{
+        display: none;
+    }
     .container {
         width: 100%;
         padding-inline: 20px;
